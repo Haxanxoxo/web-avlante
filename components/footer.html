@@ -1,0 +1,437 @@
+<style>
+    /* ═══════════════════════════════════════════════════════════════
+       STODIO FOOTER - FULLY SELF-CONTAINED DESIGN & STYLES
+       ═══════════════════════════════════════════════════════════════ */
+    section.footer-section {
+        background-color: #0b0b0b !important;
+        color: #ffffff !important;
+        padding: 80px 0 40px 0 !important;
+        position: relative !important;
+        overflow: hidden !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+        font-family: inherit !important;
+    }
+
+    section.footer-section * {
+        box-sizing: border-box !important;
+    }
+
+    section.footer-section .container {
+        max-width: 1280px !important;
+        margin: 0 auto !important;
+        padding: 0 24px !important;
+        width: 100% !important;
+    }
+
+    section.footer-section .footer-block {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 60px !important;
+        width: 100% !important;
+    }
+
+    section.footer-section .footer-link-block {
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: flex-start !important;
+        flex-wrap: wrap !important;
+        gap: 40px !important;
+        width: 100% !important;
+    }
+
+    section.footer-section .footer-left-block {
+        flex: 1 1 340px !important;
+        max-width: 440px !important;
+        min-width: 280px !important;
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 24px !important;
+    }
+
+    section.footer-section .footer-title-block h2,
+    section.footer-section .heading-style-03 {
+        color: #ffffff !important;
+        font-size: 32px !important;
+        font-weight: 600 !important;
+        line-height: 1.25 !important;
+        margin: 0 !important;
+        letter-spacing: -0.02em !important;
+    }
+
+    /* Newsletter Form */
+    section.footer-section .footer-form {
+        display: flex !important;
+        align-items: center !important;
+        background: rgba(255, 255, 255, 0.06) !important;
+        border: 1px solid rgba(255, 255, 255, 0.15) !important;
+        border-radius: 100px !important;
+        padding: 6px 6px 6px 20px !important;
+        width: 100% !important;
+        transition: border-color 0.3s ease !important;
+    }
+
+    section.footer-section .footer-form:focus-within {
+        border-color: #DE322D !important;
+    }
+
+    section.footer-section .form-input-wrapper {
+        flex: 1 !important;
+    }
+
+    section.footer-section .footer-input-field {
+        background: transparent !important;
+        border: none !important;
+        color: #ffffff !important;
+        font-size: 15px !important;
+        outline: none !important;
+        width: 100% !important;
+        padding: 8px 0 !important;
+    }
+
+    section.footer-section .footer-input-field::placeholder {
+        color: rgba(255, 255, 255, 0.4) !important;
+    }
+
+    section.footer-section .form-button {
+        background: #ffffff !important;
+        color: #0a0a0a !important;
+        border: none !important;
+        border-radius: 100px !important;
+        padding: 12px 24px !important;
+        font-size: 13px !important;
+        font-weight: 700 !important;
+        letter-spacing: 0.05em !important;
+        cursor: pointer !important;
+        transition: background 0.3s ease, color 0.3s ease !important;
+    }
+
+    section.footer-section .form-button:hover {
+        background: #DE322D !important;
+        color: #ffffff !important;
+    }
+
+    /* Social Links */
+    section.footer-section .footer-social-wrapper {
+        display: flex !important;
+        gap: 12px !important;
+        align-items: center !important;
+    }
+
+    section.footer-section .footer-social-link {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        width: 44px !important;
+        height: 44px !important;
+        border-radius: 50% !important;
+        background: rgba(255, 255, 255, 0.08) !important;
+        border: 1px solid rgba(255, 255, 255, 0.12) !important;
+        color: #ffffff !important;
+        text-decoration: none !important;
+        transition: all 0.3s ease !important;
+    }
+
+    section.footer-section .footer-social-link:hover {
+        background: #DE322D !important;
+        border-color: #DE322D !important;
+        transform: translateY(-3px) !important;
+    }
+
+    /* 3 Link Columns Layout */
+    section.footer-section .footer-link-item-block {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        gap: 40px !important;
+        flex: 2 1 500px !important;
+        min-width: 320px !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    section.footer-section .footer-link-item {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 16px !important;
+        flex: 1 !important;
+        min-width: 120px !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    section.footer-section a.footer-link {
+        color: rgba(255, 255, 255, 0.75) !important;
+        font-size: 16px !important;
+        font-weight: 400 !important;
+        text-decoration: none !important;
+        transition: color 0.25s ease, transform 0.25s ease !important;
+        display: inline-block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    section.footer-section a.footer-link:hover {
+        color: #ffffff !important;
+        transform: translateX(4px) !important;
+    }
+
+    /* Full Width Footer Logo */
+    section.footer-section .footer-logo-wrp {
+        display: block !important;
+        width: 100% !important;
+        margin-top: 20px !important;
+        text-decoration: none !important;
+    }
+
+    section.footer-section .footer-logo-wrp img {
+        width: 100% !important;
+        height: auto !important;
+        display: block !important;
+    }
+
+    /* Divider */
+    section.footer-section .divider.footer {
+        width: 100% !important;
+        height: 1px !important;
+        background: rgba(255, 255, 255, 0.12) !important;
+        margin: 10px 0 !important;
+    }
+
+    /* Bottom Copyright Bar */
+    section.footer-section .footer_bottom-wrapper {
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        flex-wrap: wrap !important;
+        gap: 20px !important;
+        color: rgba(255, 255, 255, 0.5) !important;
+        font-size: 14px !important;
+    }
+
+    section.footer-section .footer_bottom-wrapper p {
+        margin: 0 !important;
+        color: rgba(255, 255, 255, 0.5) !important;
+    }
+
+    section.footer-section a.copyright-link {
+        color: rgba(255, 255, 255, 0.8) !important;
+        text-decoration: underline !important;
+    }
+
+    section.footer-section .footer_legal-list {
+        display: flex !important;
+        align-items: center !important;
+        gap: 16px !important;
+    }
+
+    section.footer-section a.bottom-bar-link {
+        font-size: 14px !important;
+        color: rgba(255, 255, 255, 0.5) !important;
+    }
+
+    section.footer-section .divider-bottom-bar {
+        width: 1px !important;
+        height: 12px !important;
+        background: rgba(255, 255, 255, 0.2) !important;
+    }
+
+    /* Responsive Breakpoints */
+    @media (max-width: 991px) {
+        section.footer-section .footer-link-block {
+            flex-direction: column !important;
+            gap: 40px !important;
+        }
+
+        section.footer-section .footer-left-block {
+            max-width: 100% !important;
+        }
+
+        section.footer-section .footer-link-item-block {
+            width: 100% !important;
+        }
+    }
+
+    @media (max-width: 600px) {
+        section.footer-section .footer-link-item-block {
+            flex-wrap: wrap !important;
+            gap: 24px !important;
+        }
+
+        section.footer-section .footer-link-item {
+            min-width: 45% !important;
+        }
+
+        section.footer-section .footer_bottom-wrapper {
+            flex-direction: column !important;
+            align-items: flex-start !important;
+        }
+    }
+</style>
+
+<section class="footer-section">
+    <div class="container">
+        <div class="footer-block">
+
+            <!-- Top Row: Form + Links -->
+            <div class="footer-link-block"
+                style="display: flex !important; justify-content: space-between !important; align-items: flex-start !important; flex-wrap: wrap !important; gap: 40px !important; width: 100% !important;">
+                <div class="footer-left-block"
+                    style="flex: 1 1 340px !important; max-width: 440px !important; min-width: 280px !important; display: flex !important; flex-direction: column !important; gap: 24px !important;">
+                    <div class="footer-title-block">
+                        <h2 class="heading-style-03"
+                            style="color: #ffffff !important; font-size: 32px !important; font-weight: 600 !important; margin: 0 !important;">
+                            Stay updated with Rise news</h2>
+                    </div>
+                    <div class="footer-form-block w-form">
+                        <form id="newsletter-form" name="email-form" method="get" class="footer-form">
+                            <div class="form-input-wrapper" style="flex: 1 !important;">
+                                <input class="footer-input footer-input-field w-input" maxlength="256"
+                                    name="Newsletter-Email" placeholder="Enter your email" type="email"
+                                    id="newsletter-email-input" required=""
+                                    style="background: transparent !important; border: none !important; color: #ffffff !important; font-size: 15px !important; outline: none !important; width: 100% !important;">
+                            </div>
+                            <div class="footer-form-button">
+                                <input type="submit" class="form-button w-button" value="SUBSCRIBE">
+                            </div>
+                        </form>
+                        <div class="success-message w-form-done" style="display:none; color: #4CAF50; margin-top: 8px;">
+                            <div>Thank you! Your submission has been received!</div>
+                        </div>
+                    </div>
+
+                    <!-- Social Icons -->
+                    <div class="footer-social-wrapper"
+                        style="display: flex !important; gap: 12px !important; align-items: center !important;">
+                        <a href="https://www.linkedin.com/" target="_blank" class="footer-social-link"
+                            aria-label="LinkedIn">
+                            <div class="footer-social-icon">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.1117 2H2.88594C2.39609 2 2 2.38672 2 2.86484V13.1328C2 13.6109 2.39609 14 2.88594 14H13.1117C13.6016 14 14 13.6109 14 13.1352V2.86484C14 2.38672 13.6016 2 13.1117 2ZM5.56016 12.2258H3.77891V6.49766H5.56016V12.2258ZM4.66953 5.71719C4.09766 5.71719 3.63594 5.25547 3.63594 4.68594C3.63594 4.11641 4.09766 3.65469 4.66953 3.65469C5.23906 3.65469 5.70078 4.11641 5.70078 4.68594C5.70078 5.25312 5.23906 5.71719 4.66953 5.71719ZM12.2258 12.2258H10.4469V9.44141C10.4469 8.77812 10.4352 7.92266 9.52109 7.92266C8.59531 7.92266 8.45469 8.64687 8.45469 9.39453V12.2258H6.67813V6.49766H8.38437V7.28047H8.40781C8.64453 6.83047 9.22578 6.35469 10.0906 6.35469C11.893 6.35469 12.2258 7.54063 12.2258 9.08281V12.2258Z"
+                                        fill="white"></path>
+                                </svg>
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer-social-link"
+                            aria-label="Instagram">
+                            <div class="footer-social-icon">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10 8C10 8.39556 9.8827 8.78224 9.66294 9.11114C9.44318 9.44004 9.13082 9.69638 8.76537 9.84776C8.39991 9.99913 7.99778 10.0387 7.60982 9.96157C7.22186 9.8844 6.86549 9.69392 6.58579 9.41421C6.30608 9.13451 6.1156 8.77814 6.03843 8.39018C5.96126 8.00222 6.00087 7.60009 6.15224 7.23463C6.30362 6.86918 6.55996 6.55682 6.88886 6.33706C7.21776 6.1173 7.60444 6 8 6C8.53043 6 9.03914 6.21071 9.41421 6.58579C9.78929 6.96086 10 7.46957 10 8ZM14.5 5V11C14.499 11.928 14.1299 12.8176 13.4738 13.4738C12.8176 14.1299 11.928 14.499 11 14.5H5C4.07205 14.499 3.18238 14.1299 2.52622 13.4738C1.87006 12.8176 1.50099 11.928 1.5 11V5C1.50099 4.07205 1.87006 3.18238 2.52622 2.52622C3.18238 1.87006 4.07205 1.50099 5 1.5H11C11.928 1.50099 12.8176 1.87006 13.4738 2.52622C14.1299 3.18238 14.499 4.07205 14.5 5ZM11 8C11 7.40666 10.8241 6.82664 10.4944 6.33329C10.1648 5.83994 9.69623 5.45542 9.14805 5.22836C8.59987 5.0013 7.99667 4.94189 7.41473 5.05764C6.83279 5.1734 6.29824 5.45912 5.87868 5.87868C5.45912 6.29824 5.1734 6.83279 5.05764 7.41473C4.94189 7.99667 5.0013 8.59987 5.22836 9.14805C5.45542 9.69623 5.83994 10.1648 6.33329 10.4944C6.82664 10.8241 7.40666 11 8 11C8.7954 10.9992 9.55798 10.6828 10.1204 10.1204C10.6828 9.55798 10.9992 8.7954 11 8ZM12.5 4.25C12.5 4.10166 12.456 3.95666 12.3736 3.83332C12.2912 3.70999 12.1741 3.61386 12.037 3.55709C11.9 3.50032 11.7492 3.48547 11.6037 3.51441C11.4582 3.54335 11.3246 3.61478 11.2197 3.71967C11.1148 3.82456 11.0434 3.9582 11.0144 4.10368C10.9855 4.24917 11.0003 4.39997 11.0571 4.53701C11.1139 4.67406 11.21 4.79119 11.3333 4.8736C11.4567 4.95601 11.6017 5 11.75 5C11.9489 5 12.1397 4.92098 12.2803 4.78033C12.421 4.63968 12.5 4.44891 12.5 4.25Z"
+                                        fill="white"></path>
+                                </svg>
+                            </div>
+                        </a>
+                        <a href="https://web.facebook.com/" target="_blank" class="footer-social-link"
+                            aria-label="Facebook">
+                            <div class="footer-social-icon">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14 8.03667C14 4.70271 11.3137 2 8 2C4.68629 2 2 4.70271 2 8.03667C2 11.0497 4.1941 13.5471 7.0625 14V9.78164H5.53906V8.03667H7.0625V6.70671C7.0625 5.19377 7.95828 4.35807 9.32879 4.35807C9.98504 4.35807 10.6719 4.47598 10.6719 4.47598V5.96156H9.91531C9.17 5.96156 8.9375 6.42693 8.9375 6.90479V8.03667H10.6016L10.3355 9.78164H8.9375V14C11.8059 13.5471 14 11.0497 14 8.03667Z"
+                                        fill="white"></path>
+                                </svg>
+                            </div>
+                        </a>
+                        <a href="https://x.com/" target="_blank" class="footer-social-link" aria-label="Twitter X">
+                            <div class="footer-social-icon">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M9.14163 7.08118L13.6089 2H12.5503L8.67137 6.41192L5.57328 2H2L6.68492 8.6716L2 14H3.05866L7.15491 9.34087L10.4267 14H14L9.14137 7.08118H9.14163ZM7.69165 8.73038L7.21697 8.06604L3.44011 2.7798H5.06615L8.11412 7.04597L8.5888 7.71031L12.5508 13.2557H10.9248L7.69165 8.73063V8.73038Z"
+                                        fill="white"></path>
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- 3 Link Columns -->
+                <div class="footer-link-item-block"
+                    style="display: flex !important; flex-direction: row !important; justify-content: space-between !important; gap: 40px !important; flex: 2 1 500px !important; min-width: 320px !important; visibility: visible !important; opacity: 1 !important;">
+                    <div class="footer-link-item"
+                        style="display: flex !important; flex-direction: column !important; gap: 14px !important; flex: 1 !important; min-width: 120px !important; visibility: visible !important; opacity: 1 !important;">
+                        <a href="index.html" class="footer-link"
+                            style="color: rgba(255, 255, 255, 0.8) !important; font-size: 16px !important; text-decoration: none !important; display: inline-block !important; visibility: visible !important; opacity: 1 !important;">Home</a>
+                        <a href="services.html" class="footer-link"
+                            style="color: rgba(255, 255, 255, 0.8) !important; font-size: 16px !important; text-decoration: none !important; display: inline-block !important; visibility: visible !important; opacity: 1 !important;">Services</a>
+                        <a href="contact.html" class="footer-link"
+                            style="color: rgba(255, 255, 255, 0.8) !important; font-size: 16px !important; text-decoration: none !important; display: inline-block !important; visibility: visible !important; opacity: 1 !important;">Contact</a>
+                        <a href="services/ui-ux-design.html" class="footer-link"
+                            style="color: rgba(255, 255, 255, 0.8) !important; font-size: 16px !important; text-decoration: none !important; display: inline-block !important; visibility: visible !important; opacity: 1 !important;">UI/UX
+                            Design</a>
+                        <a href="services/mobile-design.html" class="footer-link"
+                            style="color: rgba(255, 255, 255, 0.8) !important; font-size: 16px !important; text-decoration: none !important; display: inline-block !important; visibility: visible !important; opacity: 1 !important;">Mobile
+                            Design</a>
+                    </div>
+                    <div class="footer-link-item"
+                        style="display: flex !important; flex-direction: column !important; gap: 14px !important; flex: 1 !important; min-width: 120px !important; visibility: visible !important; opacity: 1 !important;">
+                        <a href="services/development.html" class="footer-link"
+                            style="color: rgba(255, 255, 255, 0.8) !important; font-size: 16px !important; text-decoration: none !important; display: inline-block !important; visibility: visible !important; opacity: 1 !important;">Development</a>
+                        <a href="services/branding-design.html" class="footer-link"
+                            style="color: rgba(255, 255, 255, 0.8) !important; font-size: 16px !important; text-decoration: none !important; display: inline-block !important; visibility: visible !important; opacity: 1 !important;">Branding
+                            Design</a>
+                        <a href="services.html" class="footer-link"
+                            style="color: rgba(255, 255, 255, 0.8) !important; font-size: 16px !important; text-decoration: none !important; display: inline-block !important; visibility: visible !important; opacity: 1 !important;">Projects</a>
+                        <a href="contact.html" class="footer-link"
+                            style="color: rgba(255, 255, 255, 0.8) !important; font-size: 16px !important; text-decoration: none !important; display: inline-block !important; visibility: visible !important; opacity: 1 !important;">Book
+                            a Call</a>
+                        <a href="contact.html" class="footer-link"
+                            style="color: rgba(255, 255, 255, 0.8) !important; font-size: 16px !important; text-decoration: none !important; display: inline-block !important; visibility: visible !important; opacity: 1 !important;">Career</a>
+                    </div>
+                    <div class="footer-link-item"
+                        style="display: flex !important; flex-direction: column !important; gap: 14px !important; flex: 1 !important; min-width: 120px !important; visibility: visible !important; opacity: 1 !important;">
+                        <a href="index.html" class="footer-link"
+                            style="color: rgba(255, 255, 255, 0.8) !important; font-size: 16px !important; text-decoration: none !important; display: inline-block !important; visibility: visible !important; opacity: 1 !important;">Studio</a>
+                        <a href="services.html" class="footer-link"
+                            style="color: rgba(255, 255, 255, 0.8) !important; font-size: 16px !important; text-decoration: none !important; display: inline-block !important; visibility: visible !important; opacity: 1 !important;">Pricing</a>
+                        <a href="#" class="footer-link"
+                            style="color: rgba(255, 255, 255, 0.8) !important; font-size: 16px !important; text-decoration: none !important; display: inline-block !important; visibility: visible !important; opacity: 1 !important;">Style
+                            Guide</a>
+                        <a href="#" class="footer-link"
+                            style="color: rgba(255, 255, 255, 0.8) !important; font-size: 16px !important; text-decoration: none !important; display: inline-block !important; visibility: visible !important; opacity: 1 !important;">Changelog</a>
+                        <a href="#" class="footer-link"
+                            style="color: rgba(255, 255, 255, 0.8) !important; font-size: 16px !important; text-decoration: none !important; display: inline-block !important; visibility: visible !important; opacity: 1 !important;">License</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- STODIO AGENCY Full-Width Logo -->
+            <a href="index.html" class="footer-logo-wrp"
+                style="display: block !important; width: 100% !important; margin-top: 30px !important;">
+                <img loading="lazy" src="images/6978634bb5109a7914d3e771_Footer%20Logo.svg" alt="STODIO AGENCY"
+                    style="width: 100% !important; height: auto !important; display: block !important;">
+            </a>
+
+            <div class="divider footer"
+                style="width: 100% !important; height: 1px !important; background: rgba(255, 255, 255, 0.12) !important; margin: 20px 0 !important;">
+            </div>
+
+            <!-- Bottom Copyright Bar -->
+            <div class="footer_bottom-wrapper"
+                style="display: flex !important; justify-content: space-between !important; align-items: center !important; flex-wrap: wrap !important; gap: 20px !important; color: rgba(255, 255, 255, 0.5) !important; font-size: 14px !important;">
+                <p class="text-l" style="margin: 0 !important; color: rgba(255, 255, 255, 0.5) !important;">Stodio ©
+                    2025. All rights reserved. Powered By <a target="_blank" href="https://www.webflow.com/"
+                        class="copyright-link"
+                        style="color: rgba(255, 255, 255, 0.8) !important; text-decoration: underline !important;">Webflow.</a>
+                </p>
+                <div class="footer_legal-list"
+                    style="display: flex !important; align-items: center !important; gap: 16px !important;">
+                    <a href="#" class="footer-link bottom-bar-link"
+                        style="font-size: 14px !important; color: rgba(255, 255, 255, 0.5) !important; text-decoration: none !important;">Privacy
+                        Policy</a>
+                    <div class="divider-bottom-bar"
+                        style="width: 1px !important; height: 12px !important; background: rgba(255, 255, 255, 0.2) !important;">
+                    </div>
+                    <a href="#" class="footer-link bottom-bar-link"
+                        style="font-size: 14px !important; color: rgba(255, 255, 255, 0.5) !important; text-decoration: none !important;">Terms
+                        &amp; Conditions</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
